@@ -1,0 +1,141 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+}
+header{
+    background-color: rgb(255, 255, 234);
+}
+h1,h2,h3,h4,h5.h6{
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    text-align: center;
+}
+.logo{
+    width: 150px;
+}
+.nav-item{
+    margin-left: 10px;
+}
+.nav-link{
+    color: ;
+}
+.nav-link.btn.btn-success.custom-sign-in {
+    padding: 7px 23px;
+    border-radius: 40px;
+    color: #fff;
+    border: 2px solid #3fbb5c;
+    margin-top: 1.5px;
+    background-color:#3fbb5c;
+   
+}
+.nav-link.btn.btn-success.custom-sign-in:hover{
+    background-color: transparent;
+    color: black;
+    border: 2px solid #3fbb5c;
+}
+.first-section h1{
+    font-weight: 800;
+    font-size: 42px;
+    letter-spacing: 2px;
+    line-height:55px;
+}
+.first-section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.first-section h1 span{
+    color:#3fbb5c;
+    
+}
+.first-section p:nth-child(1){
+    color: rgb(255, 123, 0);
+    text-shadow: 2px 2px 2px lightgray;
+    
+}
+.first-section p:nth-child(2){
+    font-size: 14px;
+}
+.first-section img{
+    width: 100%;
+    
+}
+.all-button a{
+    background-color: #3fbb5c;
+    color: #fff;
+    padding:7px 23px ;
+    border-radius: 40px;
+    border: 2px solid #3fbb5c;
+    
+    transition: .3s ease-out;
+}
+.all-button a:hover{
+    background: transparent;
+    color: black;
+    text-decoration: none;
+}
+.all-button{
+    margin-left: 0px;
+    margin-top: 35px;
+}
+section{
+    padding: 70px 0px;
+}
+.card{
+    text-align: center;
+    padding: 40px 10px;
+    border: none;
+    transition: .3s;
+}
+.hover-card img{
+    width: 25%;
+    margin: auto;
+}
+.large-img{
+    width: 20% !important;
+}
+.special{
+    box-shadow: 0px 1px 18px 6px lightgray;
+}
+.card:hover{
+  box-shadow: 10px 10px 10px gray;
+    
+
+}
+.hover-card{
+    transition-duration: 0.3s ;
+
+}
+.hover-card:hover{
+    transform: translateY(-20px);
+    transform-origin: 12px;
+}
+#course h2{
+text-align: center;
+margin-bottom: 60px;
+}
+.course .card{
+    border-radius: 15px;
+    padding: 20px;
+    text-align: left;
+}
+.course .card h5{
+  color: #0c3677;
+}
+#gallery ,p{
+    text-align: center;
+}
+#gallery .container{
+    margin-top: 40px;
+}
+#gallery p{
+    margin-bottom: 30px;
+}
+hr{
+    width: 70px;
+    height: 6px;
+    border-radius: 3px;
+    background-image:linear-gradient(to left,tomato,lightsalmon);
+ 
+}
