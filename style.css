@@ -5,8 +5,11 @@ body{
 header{
     background-color: rgb(255, 255, 234);
 }
-h1,h2,h3,h4,h5.h6{
+h1,h2,h3{
     font-family: 'Poppins', sans-serif;
+}
+h4{
+    text-align: center;
 }
 h2{
     text-align: center;
@@ -123,7 +126,7 @@ margin-bottom: 60px;
 .course .card h5{
   color: #0c3677;
 }
-#gallery ,p{
+#gallery p{
     text-align: center;
 }
 #gallery .container{
@@ -138,4 +141,22 @@ hr{
     border-radius: 3px;
     background-image:linear-gradient(to left,tomato,lightsalmon);
  
+}
+.test-par{
+    margin-left: 72px;
+    margin-top: 25px;
+}
+footer{
+    height: 350px;
+    background-color: #464646;
+    color: white;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: white;
+}
+.footer-copyright{
+    font-size: 12px;
 }
