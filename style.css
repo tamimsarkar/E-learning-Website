@@ -20,9 +20,6 @@ h2{
 .nav-item{
     margin-left: 10px;
 }
-.nav-link{
-    color: ;
-}
 .nav-link.btn.btn-success.custom-sign-in {
     padding: 7px 23px;
     border-radius: 40px;
@@ -147,7 +144,7 @@ hr{
     margin-top: 25px;
 }
 footer{
-    height: 350px;
+    
     background-color: #464646;
     color: white;
 }
